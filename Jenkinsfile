@@ -11,7 +11,7 @@ pipeline {
 
         AWS_REGION = 'eu-west-2'
         BRANCH_NAME = 'develop'
-        ECR_REPO = '009543623063.dkr.ecr.eu-west-2.amazonaws.com/jenkins-gradle-ci'
+//         ECR_REPO = '009543623063.dkr.ecr.eu-west-2.amazonaws.com/jenkins-gradle-ci'
         AWS_CREDENTIALS_ID = 'aws-jenkins-service-account-credentials' // ID for AWS credentials in Jenkins
     }
 
